@@ -1,0 +1,20 @@
+{
+  "name": "Template - copy me & rename",
+  "device_name_contains": "",
+  "update_rate_hz": 120,
+  "axes": [
+    { "source": 0, "target": "LEFT_X", "invert": false, "deadzone": 0.06, "expo": 0.2, "comment": "roll" },
+    { "source": 1, "target": "LEFT_Y", "invert": true, "deadzone": 0.06, "expo": 0.2, "comment": "pitch" },
+    { "source": 2, "target": "RT", "deadzone": 0.03, "comment": "throttle -> accelerate" }
+  ],
+  "axis_buttons": [],
+  "buttons": [
+    { "source": 0, "target": "LB", "comment": "yaw left" },
+    { "source": 1, "target": "RB", "comment": "yaw right" },
+    { "source": 2, "target": "A" },
+    { "source": 3, "target": "B" }
+  ],
+  "hats": [
+    { "source": 0, "target": "DPAD" }
+  ]
+}

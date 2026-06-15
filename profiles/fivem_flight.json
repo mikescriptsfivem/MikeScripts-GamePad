@@ -1,0 +1,87 @@
+{
+  "name": "FiveM / GTA V - Thrustmaster T.Flight Hotas One (Flight)",
+  "device_name_contains": "Hotas",
+  "update_rate_hz": 120,
+  "axes": [
+    {
+      "source": 0,
+      "target": "LEFT_X",
+      "invert": false,
+      "deadzone": 0.06,
+      "expo": 0.2,
+      "comment": "roll"
+    },
+    {
+      "source": 1,
+      "target": "LEFT_Y",
+      "invert": true,
+      "deadzone": 0.06,
+      "expo": 0.2,
+      "comment": "pitch (back = climb; flip invert if it feels reversed)"
+    },
+    {
+      "source": 2,
+      "target": "RT",
+      "min": 0.0,
+      "max": -1.0,
+      "deadzone": 0.03,
+      "comment": "throttle: idle->full mapped to right trigger"
+    }
+  ],
+  "axis_buttons": [
+    {
+      "source": 5,
+      "negative": "LB",
+      "positive": "RB",
+      "threshold": 0.35,
+      "invert": false,
+      "comment": "rudder twist (axis 5) -> yaw LB/RB; engine auto-zeros rest so no drift"
+    }
+  ],
+  "buttons": [
+    {
+      "source": 0,
+      "target": "A",
+      "comment": "primary trigger"
+    },
+    {
+      "source": 1,
+      "target": "B"
+    },
+    {
+      "source": 2,
+      "target": "X"
+    },
+    {
+      "source": 3,
+      "target": "Y"
+    },
+    {
+      "source": 4,
+      "target": "LT_FULL",
+      "comment": "brake / descend"
+    },
+    {
+      "source": 5,
+      "target": "START"
+    },
+    {
+      "source": 6,
+      "target": "BACK"
+    },
+    {
+      "source": 7,
+      "target": "LS"
+    },
+    {
+      "source": 8,
+      "target": "RS"
+    }
+  ],
+  "hats": [
+    {
+      "source": 0,
+      "target": "DPAD"
+    }
+  ]
+}

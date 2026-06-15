@@ -1,0 +1,21 @@
+{
+  "name": "Generic flight - any joystick (start here, then Auto-map)",
+  "device_name_contains": "",
+  "update_rate_hz": 120,
+  "axes": [
+    { "source": 0, "target": "LEFT_X", "invert": false, "deadzone": 0.06, "expo": 0.2, "comment": "roll" },
+    { "source": 1, "target": "LEFT_Y", "invert": true, "deadzone": 0.06, "expo": 0.2, "comment": "pitch" },
+    { "source": 2, "target": "RT", "deadzone": 0.03, "comment": "throttle = accelerate (idle->full auto-ranged in the GUI)" }
+  ],
+  "axis_buttons": [],
+  "buttons": [
+    { "source": 0, "target": "LT_FULL", "comment": "hold = brake / reverse / back up" },
+    { "source": 1, "target": "A" },
+    { "source": 2, "target": "B" },
+    { "source": 3, "target": "X" },
+    { "source": 4, "target": "Y" }
+  ],
+  "hats": [
+    { "source": 0, "target": "DPAD" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Thrustmaster T.16000M (flight)",
+  "device_name_contains": "T.16000",
+  "update_rate_hz": 120,
+  "axes": [
+    { "source": 0, "target": "LEFT_X", "deadzone": 0.06, "expo": 0.2, "comment": "roll" },
+    { "source": 1, "target": "LEFT_Y", "invert": true, "deadzone": 0.06, "expo": 0.2, "comment": "pitch" },
+    { "source": 3, "target": "RT", "deadzone": 0.03, "comment": "throttle slider -> accelerate (verify axis in the live view)" }
+  ],
+  "axis_buttons": [
+    { "source": 2, "negative": "LB", "positive": "RB", "threshold": 0.35, "comment": "stick twist = rudder / yaw" }
+  ],
+  "buttons": [
+    { "source": 0, "target": "A", "comment": "trigger" },
+    { "source": 1, "target": "LT_FULL", "comment": "brake / reverse (hold)" },
+    { "source": 2, "target": "B" },
+    { "source": 3, "target": "X" },
+    { "source": 4, "target": "Y" },
+    { "source": 5, "target": "START" },
+    { "source": 6, "target": "BACK" }
+  ],
+  "hats": [
+    { "source": 0, "target": "DPAD" }
+  ]
+}
